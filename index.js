@@ -245,5 +245,7 @@ class Fraction {
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-	module.exports = Fraction;
+	module.exports = {
+		Fraction: Fraction
+	};
 }
